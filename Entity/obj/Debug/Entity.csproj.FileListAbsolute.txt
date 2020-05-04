@@ -1,0 +1,6 @@
+C:\Users\Miguel Aponte\source\repos\Semana05\Entity\bin\Debug\Entity.dll
+C:\Users\Miguel Aponte\source\repos\Semana05\Entity\bin\Debug\Entity.pdb
+C:\Users\Miguel Aponte\source\repos\Semana05\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+C:\Users\Miguel Aponte\source\repos\Semana05\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Aponte\source\repos\Semana05\Entity\obj\Debug\Entity.dll
+C:\Users\Miguel Aponte\source\repos\Semana05\Entity\obj\Debug\Entity.pdb

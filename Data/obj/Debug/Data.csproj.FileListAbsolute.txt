@@ -1,0 +1,9 @@
+C:\Users\Miguel Aponte\source\repos\Semana05\Data\bin\Debug\Data.dll
+C:\Users\Miguel Aponte\source\repos\Semana05\Data\bin\Debug\Data.pdb
+C:\Users\Miguel Aponte\source\repos\Semana05\Data\bin\Debug\Entity.dll
+C:\Users\Miguel Aponte\source\repos\Semana05\Data\bin\Debug\Entity.pdb
+C:\Users\Miguel Aponte\source\repos\Semana05\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Miguel Aponte\source\repos\Semana05\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Aponte\source\repos\Semana05\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Miguel Aponte\source\repos\Semana05\Data\obj\Debug\Data.dll
+C:\Users\Miguel Aponte\source\repos\Semana05\Data\obj\Debug\Data.pdb
