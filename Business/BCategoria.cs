@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Data;
+﻿using Data;
 using Entity;
+using System;
+using System.Collections.Generic;
 
 namespace Business
 {
@@ -20,7 +17,7 @@ namespace Business
                 DCategoria = new DCategoria();
                 categorias = DCategoria.Listar(new Categoria { IdCategoria = IdCategoria });
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -35,7 +32,9 @@ namespace Business
                 DCategoria = new DCategoria();
                 DCategoria.Insertar(categoria);
             }
+#pragma warning disable CS0168 // La variable 'ex' se ha declarado pero nunca se usa
             catch (Exception ex)
+#pragma warning restore CS0168 // La variable 'ex' se ha declarado pero nunca se usa
             {
                 result = false;
             }
@@ -50,14 +49,16 @@ namespace Business
                 DCategoria = new DCategoria();
                 DCategoria.Actualizar(categoria);
             }
-            catch(Exception ex)
+#pragma warning disable CS0168 // La variable 'ex' se ha declarado pero nunca se usa
+            catch (Exception ex)
+#pragma warning restore CS0168 // La variable 'ex' se ha declarado pero nunca se usa
             {
                 result = false;
             }
             return result;
         }
 
-        public bool Eliminar (int IdCategoria)
+        public bool Eliminar(int IdCategoria)
         {
             bool result = true;
             try
@@ -66,7 +67,9 @@ namespace Business
                 DCategoria.Eliminar(IdCategoria);
 
             }
-            catch(Exception ex)
+#pragma warning disable CS0168 // La variable 'ex' se ha declarado pero nunca se usa
+            catch (Exception ex)
+#pragma warning restore CS0168 // La variable 'ex' se ha declarado pero nunca se usa
             {
                 result = false;
             }

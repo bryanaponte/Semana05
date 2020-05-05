@@ -1,9 +1,6 @@
-﻿using System;
+﻿using Entity;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Entity;
 using System.Data;
 using System.Data.SqlClient;
 namespace Data
@@ -88,7 +85,7 @@ namespace Data
                 throw ex;
             }
         }
-        public void Eliminar(int IdCategoria) 
+        public void Eliminar(int IdCategoria)
         {
             SqlParameter[] parameters = null;
             string comandText = string.Empty;
@@ -100,7 +97,7 @@ namespace Data
                 parameters[0].Value = IdCategoria;
                 SqlHelper.ExecuteNonQuery(SqlHelper.Connection, comandText, CommandType.StoredProcedure, parameters);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw ex;
             }
